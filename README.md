@@ -22,15 +22,6 @@ EBAND es un prototipo web/mobile responsive para aprendizaje inicial de guitarra
 - Progreso con porcentaje general, puntos, tiempo, categorías y logros.
 - Perfil con datos del usuario, nivel actual, cierre de sesión y reinicio de progreso.
 
-## Cómo ejecutar localmente
-
-```bash
-npm install
-npm run dev
-```
-
-Luego abre la URL que muestre Vite, normalmente `http://localhost:5173`.
-
 ## Usuario de prueba sugerido
 
 Puedes registrarte desde la app con cualquier correo válido. Para una demostración rápida, también puedes iniciar sesión directamente con:
@@ -39,8 +30,3 @@ Puedes registrarte desde la app con cualquier correo válido. Para una demostrac
 - Correo: demo@eband.com
 - Contraseña: 123456
 
-Si no existe todavía en localStorage, la app crea este usuario demo en el primer inicio de sesión correcto.
-
-## Evidencia TRL5
-
-El prototipo evidencia TRL5 porque integra los componentes principales de la solución en un entorno controlado de navegador: autenticación simulada, persistencia local, navegación real, actividades interactivas, cambios de estado, progreso medible y reinicio para pruebas. No depende de backend, Firebase ni APIs externas, por lo que es estable para sustentación universitaria, grabación en video y pruebas funcionales guiadas.
